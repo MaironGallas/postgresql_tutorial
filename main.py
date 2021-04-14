@@ -4,7 +4,7 @@ import psycopg2
 def create_user():
     try:
         connection = psycopg2.connect(user="postgres",
-                                      password="684255",
+                                      password="123456",
                                       host="localhost",
                                       port="5432",
                                       database="dbteste")
@@ -35,7 +35,7 @@ def create_user():
 def insert_user(email, username,password):
     try:
         connection = psycopg2.connect(user="postgres",
-                                      password="684255",
+                                      password="123456",
                                       host="localhost",
                                       port="5432",
                                       database="dbteste")
@@ -61,7 +61,7 @@ def insert_user(email, username,password):
 def connection_teste():
     try:
         connection = psycopg2.connect(user="postgres",
-                                      password="684255",
+                                      password="123456",
                                       host="localhost",
                                       port="5432",
                                       database="dbteste")
@@ -89,7 +89,7 @@ def connection_teste():
 def get_user_db(email):
     try:
         connection = psycopg2.connect(user="postgres",
-                                      password="684255",
+                                      password="123456",
                                       host="localhost",
                                       port="5432",
                                       database="dbteste")
